@@ -1,0 +1,82 @@
+{
+	"editor.insertSpaces": false,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"files.associations": {
+		"*.css": "css"
+	},
+	"terminal.integrated.scrollback": 10000,
+	"eslint.enable": true,
+	"eslint.format.enable": true,
+	"prettier.enable": true,
+	"[markdown]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[less]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsx]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[tsx]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[vue]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[yml]": {
+		"editor.defaultFormatter": "redhat.vscode-yaml"
+	},
+	"[yaml]": {
+		"editor.defaultFormatter": "redhat.vscode-yaml"
+	},
+	"css.format.spaceAroundSelectorSeparator": true,
+	"css.lint.unknownAtRules": "ignore",
+	"css.lint.validProperties": ["composes"],
+	"less.format.spaceAroundSelectorSeparator": true,
+	"less.lint.unknownAtRules": "ignore",
+	"less.lint.validProperties": ["composes"],
+	"stylelint.packageManager": "pnpm",
+	"explorer.fileNesting.enabled": true,
+	"explorer.fileNesting.expand": false,
+	"explorer.fileNesting.patterns": {
+		"package.json": ".*cache, .*ignore, .*rc, .editorConfig, .git*, .mailmap, pnpm-lock.yaml, svgo.config.cjs, tsconfig.json, LICENSE",
+		"readme*": "*.md"
+	},
+	"json.schemas": [
+		{
+			"fileMatch": ["scripts/credentials.json"],
+			"url": "./.vscode/json-schemas/credentials.json"
+		},
+		{
+			"fileMatch": ["src/*/definition.json"],
+			"url": "./.vscode/json-schemas/definition.json"
+		},
+		{
+			"fileMatch": ["src/global.json"],
+			"url": "./.vscode/json-schemas/global.json"
+		}
+	],
+	"typescript.enablePromptUseWorkspaceTsdk": true,
+	"typescript.tsdk": "./node_modules/typescript/lib"
+}

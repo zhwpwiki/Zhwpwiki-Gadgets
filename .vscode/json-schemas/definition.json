@@ -1,0 +1,118 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"title": "小工具定义 / Gadget definition",
+	"type": "object",
+	"properties": {
+		"enable": {
+			"type": "boolean",
+			"title": "是否启用当前小工具 / Enable the current gadget or not",
+			"default": true
+		},
+		"description": {
+			"type": "string",
+			"title": "“MediaWiki:Gadget-小工具名”页面中的文本，默认为当前小工具名 / The content in the page 'MediaWiki:Gadget-${gadgetName}' (default: the current gadget name)"
+		},
+		"section": {
+			"type": "string",
+			"title": "当前小工具在“MediaWiki:Gadgets-definition”页面中所处的章节 / The section of the current gadget in the page 'MediaWiki:Gadgets-definition'",
+			"default": "appear",
+			"examples": ["appear", "browser", "compatibility", "edit", "sysop"],
+			"minLength": 1
+		},
+		"excludeSites": {
+			"type": "array",
+			"title": "在给定站点上禁用当前小工具 / Disable the current gadget on given sites",
+			"default": [],
+			"items": {
+				"type": "string",
+				"minLength": 1
+			},
+			"minItems": 1
+		},
+		"externalPackages": {
+			"type": "array",
+			"title": "除 dependencies 属性中的包之外，额外指定 esbuild 的 external 编译选项 / Specify additional esbuild external compilation options",
+			"default": [],
+			"items": {
+				"type": "string",
+				"minLength": 1
+			},
+			"minItems": 1
+		},
+		"actions": {
+			"type": "array",
+			"default": [],
+			"items": {
+				"type": "string",
+				"minLength": 1
+			},
+			"minItems": 1
+		},
+		"contentModels": {
+			"type": "array",
+			"default": [],
+			"items": {
+				"type": "string",
+				"minLength": 1
+			},
+			"minItems": 1
+		},
+		"default": {
+			"type": "boolean",
+			"default": false
+		},
+		"dependencies": {
+			"type": "array",
+			"default": [],
+			"items": {
+				"type": "string",
+				"minLength": 1
+			},
+			"minItems": 1
+		},
+		"hidden": {
+			"type": "boolean",
+			"default": false
+		},
+		"namespaces": {
+			"type": "array",
+			"default": [],
+			"items": {
+				"type": "number"
+			},
+			"minItems": 1
+		},
+		"peers": {
+			"type": "array",
+			"default": [],
+			"items": {
+				"type": "string",
+				"minLength": 1
+			},
+			"minItems": 1
+		},
+		"rights": {
+			"type": "array",
+			"default": [],
+			"items": {
+				"type": "string",
+				"minLength": 1
+			},
+			"minItems": 1
+		},
+		"skins": {
+			"type": "array",
+			"default": [],
+			"items": {
+				"type": "string"
+			},
+			"minItems": 1
+		},
+		"supportsUrlLoad": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"additionalProperties": false,
+	"required": ["enable"]
+}
