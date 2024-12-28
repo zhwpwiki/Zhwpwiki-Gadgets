@@ -1,0 +1,199 @@
+/*Wikiplus*/
+  .clear {
+	clear: both;
+}
+#Wikiplus-Quickedit-Summary-Input {
+	width: 50%;
+}
+#Wikiplus-Quickedit-Preview-Submit, #Wikiplus-Quickedit-Submit {
+	margin-top: 5px;
+	padding: revert;
+}
+.Wikiplus-Btn {
+	position: relative;
+	float: left;
+	margin: 3px 5px;
+	padding: 3px 1em;
+	width: auto;
+	background-color: #fff;
+	box-shadow: 0 1px 2px #aaa;
+	text-align: center;
+	cursor: pointer;
+}
+.Wikiplus-Btn a {
+	position: relative;
+	display: block;
+	margin: 0;
+	color: #000;
+	text-decoration: none;
+}
+.Wikiplus-InterBox {
+	position: absolute;
+	top: 20%;
+	z-index: 200;
+	padding: 20px 10px;
+	width: 600px;
+	min-height: 100px;
+	border: 1px rgba(161, 154, 220, 0.41) solid;
+	background-color: #edf9f7;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+.Wikiplus-InterBox-Header {
+	position: relative;
+	top: 0;
+	top: -8px;
+	margin: 0;
+	width: 100%;
+	border-bottom: 1px #6cf solid;
+	text-align: left;
+	font-size: 15px;
+	line-height: 30px;
+	cursor: move;
+}
+.Wikiplus-InterBox-Input {
+	margin: 20px;
+	width: 60%;
+}
+.Wikiplus-InterBox-Btn {
+	position: relative;
+	float: right;
+	margin: auto 3px;
+	padding: 6px 12px;
+	border: 1px solid #dedede;
+	background-color: #fff;
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+}
+.Wikiplus-InterBox-Btn:hover {
+	background-color: #e8e8e8;
+}
+.Wikiplus-InterBox-Close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 3px 7px;
+	font-size: 20px;
+	cursor: pointer;
+}
+.Wikiplus-InterBox label {
+	font-size: 13px;
+}
+.Wikiplus-InterBox table.diff {
+	table-layout: auto !important;
+}
+.Wikiplus-InterBox table.diff .diff-addedline, .Wikiplus-InterBox table.diff .diff-deletedline, .Wikiplus-InterBox table.diff .diff-lineno {
+	width: 50%;
+}
+.Wikiplus-InterBox table.diff .diff-marker {
+	text-align: left;
+}
+#Wikiplus-Quickedit-Preview-Output {
+	clear: both;
+	margin: 5px 0;
+	user-select: text;
+	-webkit-user-select: text;
+	-moz-user-select: text;
+}
+#Wikiplus-Quickedit {
+	word-break: break-all;
+	width: 100%;
+	min-height: 500px;
+}
+.Wikiplus-Banner {
+	margin: 0;
+	padding: 10px 5px;
+	min-height: 50px;
+	background: rgba(193, 222, 214, 0.51);
+	text-align: center;
+	font-size: 30px;
+	font-family: å¾®è½¯é›…é»‘;
+}
+.MoeNotification-notice {
+	position: relative;
+	display: none;
+	overflow: hidden;
+	margin: 3px 5px;
+	padding: 0 5px;
+	width: auto;
+	box-shadow: 0 3px 3px #aaa;
+	font-size: 14px !important;
+}
+.MoeNotification-notice span {
+	position: relative;
+	margin: 3px auto 3px 3px;
+	color: #fff;
+	text-align: left;
+	font-size: 14px !important;
+	font-family: Arial, Tahoma, Microsoft YaHei, \5fae\8f6f\96c5\9ed1, Hiragino Sans GB, Microsoft JhengHei, å¾®è»Ÿæ­£é»‘é«”, sans-serif;
+	line-height: 1.5 !important;
+}
+.MoeNotification-notice-success {
+	border-left: 5px #8dda93 solid;
+	border-bottom-left-radius: 3px;
+	border-top-left-radius: 3px;
+	background-color: #008a00;
+}
+.MoeNotification-notice-warning {
+	border-left: 5px #ffdf00 solid;
+	border-bottom-left-radius: 3px;
+	border-top-left-radius: 3px;
+	background-color: #f4bd00;
+}
+.MoeNotification-notice-warning span {
+	color: #000;
+}
+.MoeNotification-notice-error {
+	border-left: 5px #e71717 solid;
+	border-bottom-left-radius: 3px;
+	border-top-left-radius: 3px;
+	background-color: #b00e06;
+}
+#MoeNotification {
+	position: fixed;
+	bottom: 30px;
+	left: 0;
+	z-index: 713;
+	min-width: 20%;
+}
+.mw-editsection-divider {
+	display: inline !important;
+}
+.skin-minerva .mw-editsection-divider {
+	visibility: hidden;
+}
+.skin-minerva #Wikiplus-Quickedit-Preview-Submit, .skin-minerva #Wikiplus-Quickedit-Submit, .skin-minerva #Wikiplus-Quickedit-Summary-Input, .skin-minerva .Wikiplus-InterBox-Input {
+	all: revert;
+}
+.skin-minerva #Wikiplus-Quickedit-Summary-Input {
+	width: 50%;
+}
+.skin-minerva #Wikiplus-Quickedit-Preview-Submit, .skin-minerva #Wikiplus-Quickedit-Submit {
+	margin-top: 5px;
+}
+.skin-minerva #Wikiplus-Setting-Input {
+	width: calc(100% - 10px);
+	max-width: calc(100% - 10px);
+}
+.skin-minerva .Wikiplus-InterBox-Input {
+	margin: 20px;
+	width: 60%;
+}
+.skin-minerva #Wikiplus-Settings-Intro a:before {
+	background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20width%3D%2220%22%20height%3D%2220%22%20viewBox%3D%220%200%2020%2020%22%3E%3Cg%20fill%3D%22%2354595d%22%3E%3Cg%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20transform%3D%22translate(10%2010)%22%3E%3Cpath%20id%3D%22a%22%20d%3D%22M1.5-10h-3l-1%206.5h5m0%207h-5l1%206.5h3%22%2F%3E%3Cuse%20transform%3D%22rotate(45)%22%20xlink%3Ahref%3D%22%23a%22%2F%3E%3Cuse%20transform%3D%22rotate(90)%22%20xlink%3Ahref%3D%22%23a%22%2F%3E%3Cuse%20transform%3D%22rotate(135)%22%20xlink%3Ahref%3D%22%23a%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M10%202.5a7.5%207.5%200%20000%2015%207.5%207.5%200%20000-15v4a3.5%203.5%200%20010%207%203.5%203.5%200%20010-7%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+.skin-minerva #Wikiplus-SR-Intro a:before {
+	background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2220%22%20height%3D%2220%22%20viewBox%3D%220%200%2020%2020%22%3E%3Cg%20fill%3D%22%2354595d%22%3E%3Cpath%20d%3D%22M5%201a2%202%200%2000-2%202v1c0%205%202%208%207%208V9l5%204-5%204v-3c-3.18%200-5.51-.85-7-2.68V17a2%202%200%20002%202h10a2%202%200%20002-2V3a2%202%200%2000-2-2z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+.skin-minerva .mw-parser-output .mw-editsection {
+	display: flex !important;
+	align-items: center;
+}
+.skin-minerva .mw-parser-output .section-heading>div {
+	vertical-align: baseline;
+}
+.skin-vector #Wikiplus-Quickedit-Summary-Input {
+	margin-top: 5px;
+}
