@@ -9,12 +9,12 @@
 
 
 > [!IMPORTANT]
-> 开发者注意：
+> 网站维护者注意：
 >
 > 1. 本站已支持直接使用 ES6 语法，且所有小工具强制开启 ES6 语法检查。
 > 2. 若小工具文件夹内同时包含 TS(JS)/LESS(CSS) ，请在对应 JS/TS 文件中声明对应样式表，否则样式表将不会加载。
 > 3. 初次 Clone 请自行加载 Node.js, pnpm 等必备工具。
-> 4. 请务必参照其他已有小工具格式添加LICENSE文件。
+> 4. 请仔细阅读[贡献须知](https://github.com/zhwpwiki/Zhwpwiki-Gadgets/blob/main/doc/how-to-build-or-deploy.md)
 
 
 ## 底层支持 Powered By
